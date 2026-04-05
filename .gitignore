@@ -1,0 +1,35 @@
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+*.egg
+*.egg-info/
+dist/
+build/
+.eggs/
+.env
+.venv
+venv/
+env/
+*.so
+
+# Results (generated at runtime)
+results/figures/*.png
+results/*.html
+results/calibrated_params.json
+data/*.csv
+
+# Jupyter
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
